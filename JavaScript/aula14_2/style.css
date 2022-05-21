@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    background: rgb(179, 240, 122);
+    font: normal 16px Arial;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+}
+
+section {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    text-align: center;
+}
+
+#txtn {
+    width: 50px;
+    margin-right: 10px;
+}
+select {
+    width:  200px;
+    margin-bottom: 15px;
+    padding: 8px;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}

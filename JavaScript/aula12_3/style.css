@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body {
+    background: rgb(255, 230, 149);
+    font: normal 16px Arial;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+}
+
+section {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+div {
+    text-align: center;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 15px 0px;
+    border: none;
+}
+
+#sexo, #nasc {
+    font-weight: bold;
+}
+
+#txtano {
+    width: 70px;
+}
+
+button {
+    margin-bottom: 20px;
+    background: rgb(255, 234, 41);
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+footer > p, a {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    margin: 0px;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+

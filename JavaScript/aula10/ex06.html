@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        body {
+            background: rgb(151, 197, 201);
+            color:black;
+            font: normal 18pt Arial;
+        }
+        div#area {
+            margin: auto;
+            margin-top: 300px;
+            background:rgb(255, 0, 0);
+            color:rgb(255, 255, 255);
+            width: 300px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="area">
+        BOTÃO
+    </div>
+    <script>
+        var a = window.document.getElementById('area')
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+
+        function clicar() {
+            a.innerText = 'Meu pau na tua mão'
+            a.style.background = 'green'
+        }
+        function entrar() {
+            a.innerText = 'Aperte o botão'
+            a.style.background = 'yellow'
+            a.style.color = 'black'
+        }
+    </script>
+</body>
+</html>
